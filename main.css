@@ -1,0 +1,143 @@
+/*FONT-FAMILY*/
+@font-face{
+    font-family:font1;
+   src:url('font-family/Montserrat-Light.ttf');
+}
+
+@font-face{
+    font-family:font2;
+    src:url('font-family/Montserrat-Regular.ttf');  
+}
+@font-face{
+    font-family:font3;
+    src:url('font-family/Montserrat-LightItalic.ttf');  
+}
+
+body{
+	font-family:font2;
+}
+.navbar{
+	background: transparent;
+	border:0px solid transparent;
+}
+.navbar ul li a{
+	color:white !important;
+	font-family: font1;
+}
+/*Banner Section*/
+#banner button{
+	background: darksalmon;
+	border: 2px solid darksalmon;
+	border-radius: 0px;
+	
+}
+
+.section-banner{
+    background:url(images/Banner.png) center center no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.section-banner .overlay{
+    background: rgba(0,0,0,0.3)  repeat;
+    width:100%;
+    height:100%;
+}
+.banner-text img{
+	width:30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.banner-text h2{
+	color:white;
+	letter-spacing: 0.5px;
+	line-height: 42px;
+}
+.banner-text p{
+	color:white !important;
+	letter-spacing: 1.0px;
+	font-size: 22px;
+	font-family: font3;
+}
+
+/**********PAGE TWO ****************/
+
+#page-two img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width:20%;
+}
+#page-two h4{
+	line-height: 28px;
+	color: black;
+	text-align: center;
+	font-weight: 700;
+}
+.page-two-box{
+	background: whitesmoke;
+	padding:20px 10px 20px 10px;
+}
+.page-two-main-box{
+	background: gray;
+	color:white;
+	padding:10px 15px 10px 15px;
+}
+.page-two-main-box p{
+	text-align: justify;
+	font-family: font1;
+	letter-spacing: 0.7px;
+	line-height: 25px;
+}
+
+#page-two button{
+	background: transparent;
+	font-size: 18px;
+	color:black;
+	border:2px solid black;
+	border-radius: 0px;
+}
+
+/*****************************PAGE THREE********************************/
+#page-three img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#page-three h4{
+	color:gray;
+	letter-spacing: 1.2px;
+}
+#page-three p{
+	color:black;
+	text-align: center;
+	line-height: 22px;
+	letter-spacing: 0.8px;
+}
+.page-four-heading{
+	color:white;
+	line-height: 26px;
+	letter-spacing: 0.5px;
+	background:gray;
+	padding-top: 40px;
+}
+.page-four-heading p{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+/*Mobile-Responsive*/
+@media screen and (min-width: 992px){
+	.section-banner{
+		height: 600px;
+	}
+	#page-two{
+	margin-top: -90px;
+}
+	
+}
+
+
+
+
+
