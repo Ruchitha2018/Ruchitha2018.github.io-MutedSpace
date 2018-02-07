@@ -33,14 +33,14 @@ body{
 }
 
 .section-banner{
-    background:url(images/about_us_banner.png) center center no-repeat;
+    background:url(images/banner-offer.png) center center no-repeat;
     background-size: cover;
     color:black;
     text-align: center;
-	height: 600px;
+	height: 100%;
 }
 .section-banner .overlay{
-    background: rgba(0,0,0,0.3)  repeat;
+    background: rgba(0,0,0,0.7)  repeat;
     width:100%;
     height:100%;
 }
@@ -58,31 +58,29 @@ body{
 	font-family: font3;
 }
 
-/**********PAGE TWO ****************/
-#page-two p{
-	text-align: justify;
-	font-size: 22px;
-	font-family: font1;
-}
-#page-three img{
-	border:12px solid whitesmoke;
-}
-
-#page-three .panel{
-	border-radius: 0px;
+#page-two .box{
+	background: #3d3a44;
 	padding:20px;
 }
-#page-three p{
-	text-align: justify;
+
+#page-two .box h3{
+	color:white;
+	font-size: 28px;
+}
+#page-two .box h6{
 	font-size: 15px;
-	line-height: 25px;
+	color:lightgray;
 	font-family: font1;
 }
-#page-three .social-links .fa{
-	font-size: 22px;
-	padding-left: 20px;
+#page-two h5{
+	font-size: 20px;
+	color:#3d3a44;
+	line-height: 28px;
 }
-
+#page-two h4{
+	font-family: font1;
+	line-height: 26px;
+}
 
 
 
