@@ -25,11 +25,13 @@ body{
 	font-family: font1;
 }
 /*Banner Section*/
-#banner button{
-	background: darksalmon;
-	border: 2px solid darksalmon;
-	border-radius: 0px;
-	
+#banner button {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
 .section-banner{
@@ -81,6 +83,24 @@ body{
 	font-family: font1;
 	line-height: 26px;
 }
-
+#page-two img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+}
+#footer{
+	background: whitesmoke;
+	padding:40px;
+}
+#footer ul{
+	list-style: none;
+	
+}
+#footer ul li{
+	padding-top:09px;
+	margin-left: -25px;
+	color:gray;
+}
 
 
