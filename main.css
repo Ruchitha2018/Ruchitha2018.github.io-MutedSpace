@@ -204,7 +204,45 @@ body{
 	}
 	
 }
+#work-page-two h2{
+	color:#64656e;
+	font-size: 50px;
+}
+#work-page-two img{
+	width: 100%;
+}
+#work-page-two p{
+	line-height: 27px;
+	font-size: 14px;
+	text-align: center;
+	font-family: font1;
+}
+#work-page-two .box{
+	border-bottom:2px solid #64656e;
+    padding-bottom: 20px;
+}
+#work-page-three .box-two{
+	background: #64656e;
+	color:whitesmoke;
+	padding:20px;
+	line-height: 27px;
+	font-size: 14px;
+	text-align: center;
+	font-family: font1;
+}
+#work-page-three h1{
+color:#64656e;	/* Safari */
+-webkit-transform: rotate(-90deg);
 
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+}
 
 
 
